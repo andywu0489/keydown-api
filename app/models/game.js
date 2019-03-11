@@ -6,7 +6,7 @@ const gameSchema = new mongoose.Schema({
     required: true
   },
   hitPercentage: {
-    type: String,
+    type: Number,
     required: true
   },
   owner: {

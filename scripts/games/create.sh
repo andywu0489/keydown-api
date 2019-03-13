@@ -11,7 +11,7 @@ curl "${API}${URL_PATH}" \
   --data '{
     "game": {
       "score": "'"${SCORE}"'",
-      "hitPercentage": "'"${HITPERCENTAGE}"'"
+      "accuracy": "'"${ACCURACY}"'"
     }
   }'
 

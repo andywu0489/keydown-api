@@ -5,7 +5,7 @@ const gameSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
-  hitPercentage: {
+  accuracy: {
     type: Number,
     required: true
   },

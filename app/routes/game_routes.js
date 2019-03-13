@@ -12,7 +12,7 @@ const router = express.Router()
 // INDEX
 // GET /games
 router.get('/games', requireToken, (req, res, next) => {
-  Game.find()
+  Game.find({'owner': req.user.id})
     .then(games => {
       return games.map(game => game.toObject())
     })

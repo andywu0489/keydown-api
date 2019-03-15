@@ -47,5 +47,6 @@ User -|--< Games
 - Fork and clone this repository
 - Create a new branch
 - Checkout to new branch
+- Install dependencies
 - Follow this guide to deploy to heroku: https://git.generalassemb.ly/ga-wdi-boston/express-api-deployment-guide
 - Update the production url in config.js in keydown-client with one generated in the previous step
